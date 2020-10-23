@@ -1,19 +1,19 @@
 'use strict';
 
-let CLOUD_WIDTH = 420;
-let CLOUD_HEIGHT = 270;
-let CLOUD_X = 100;
-let CLOUD_Y = 10;
-let CLOUD_GAP = 10;
-let HEADER_X = 130;
-let HEADER_Y = 40;
-let HEADER_GAP = 15;
-let NAME_X = 150;
-let NAME_Y = 260;
-let BAR_WIDTH = 40;
-let BAR_MAX_HEIGHT = 150;
-let GAP = 20;
-let BAR_GAP = 50;
+const CLOUD_WIDTH = 420;
+const CLOUD_HEIGHT = 270;
+const CLOUD_X = 100;
+const CLOUD_Y = 10;
+const CLOUD_GAP = 10;
+const HEADER_X = 130;
+const HEADER_Y = 40;
+const HEADER_GAP = 15;
+const NAME_X = 150;
+const NAME_Y = 260;
+const BAR_WIDTH = 40;
+const BAR_MAX_HEIGHT = 150;
+const GAP = 20;
+const BAR_GAP = 50;
 
 /* Функция отрисовки облака */
 let renderCloud = function (ctx, x, y, color) {
